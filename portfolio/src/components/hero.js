@@ -9,7 +9,7 @@ const Hero = props => {
       <h1>{props.title}</h1>
 
       {props.isHome ? (
-        <img src={require("../assets/icons.png")} alt="logo" />
+        <img src={require("../assets/images/icons.png")} alt="logo" />
       ) : (
         ""
       )}

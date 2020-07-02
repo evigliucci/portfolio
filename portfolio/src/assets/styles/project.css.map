@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;CACZ",
     "sources": [
-        "portfolio.scss"
+        "project.scss"
     ],
     "names": [],
-    "file": "portfolio.css"
+    "file": "project.css"
 }
