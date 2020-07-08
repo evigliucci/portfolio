@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Intro from "../components/intro";
 import Hero from "../components/hero";
 import Experience from "../components/experience";
-import Button from "../components/Button";
+import Button from "../components/button";
 import Footer from "../components/footer";
 import WorkSamples from "../components/workSample";
 
