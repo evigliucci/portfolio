@@ -1,6 +1,17 @@
 .hero {
   text-align: center;
   padding: 7.5rem;
+  position: relative;
+
+  &.tall {
+    padding: 15rem 0 25rem;
+  }
+
+  a {
+    position: absolute;
+    top: 2.4rem;
+    left: 2.4rem;
+  }
   h1 {
     color: #fff;
     padding-bottom: 5rem;

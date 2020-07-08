@@ -4,8 +4,17 @@ import "../assets/styles/components/hero.css";
 
 const Hero = props => {
   return (
-    <section className="hero">
-      {props.isHome ? "" : <Link to="/">Home Icon</Link>}
+    <section className={"hero " + props.version}>
+      {props.isHome ? (
+        ""
+      ) : (
+        <Link to="/">
+          <img
+            src={require("../assets/images/icon-home.png")}
+            alt="Home Icon"
+          />
+        </Link>
+      )}
 
       <h1 className="heading-1">{props.title}</h1>
 

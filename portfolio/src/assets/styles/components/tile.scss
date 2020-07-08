@@ -1,0 +1,21 @@
+.tiles {
+  background: #000;
+  padding-top: 10rem;
+
+  .tile-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 7.5rem;
+  }
+  .tile {
+    flex: 1 0 21%; /* explanation below */
+    margin: 2.4rem;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    height: 300px;
+  }
+}

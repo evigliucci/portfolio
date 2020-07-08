@@ -1,0 +1,14 @@
+.workSamples {
+  margin-bottom: -1px;
+}
+
+.workSamples.overlap {
+  margin-top: -240px;
+  z-index: 2;
+  position: relative;
+}
+
+.workSamples img {
+  width: 100%;
+}
+/*# sourceMappingURL=workSample.css.map */

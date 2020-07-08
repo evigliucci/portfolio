@@ -1,0 +1,12 @@
+.workSamples {
+  margin-bottom: -1px;
+
+  &.overlap {
+    margin-top: -240px;
+    z-index: 2;
+    position: relative;
+  }
+  img {
+    width: 100%;
+  }
+}

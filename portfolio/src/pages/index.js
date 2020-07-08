@@ -6,21 +6,20 @@ import Hero from "../components/hero";
 import Experience from "../components/experience";
 import Button from "../components/Button";
 import Footer from "../components/footer";
+import WorkSamples from "../components/workSample";
 
 const Home = () => {
   return (
     <main>
       <Intro title="I am a Full-Stack developer with 10 years of digital experience." />
+
       <Hero isHome={true} title="Tech Stack" />
+
       <Experience />
+
       <Button btnName="View Portfolio" url="/portfolio" align="mid" />
 
-      <section className="workSamples">
-        <img
-          src={require("../assets/images/work-samples.png")}
-          alt="work samples"
-        />
-      </section>
+      <WorkSamples />
 
       <section className="sandbox">
         <div className="sandboxWrap">

@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../assets/styles/components/workSample.css";
 
-const Hero = props => {
+const WorkSamples = props => {
   return (
-    <div>
-      {props.isHome ? "" : <Link to="/">Home Icon</Link>}
-
-      <h1>HERO COMPONENT</h1>
-      <img alt="test" />
-    </div>
+    <section className={"workSamples " + props.version}>
+      <img
+        src={require("../assets/images/work-samples.png")}
+        alt="work samples"
+      />
+    </section>
   );
 };
 
-export default Hero;
+export default WorkSamples;

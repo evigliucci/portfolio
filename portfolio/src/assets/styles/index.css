@@ -3,14 +3,6 @@
   background: linear-gradient(145deg, #d70a84 25%, #51127f 75%);
 }
 
-.workSamples {
-  margin-bottom: -1px;
-}
-
-.workSamples img {
-  width: 100%;
-}
-
 .sandbox {
   background: #000;
   padding: 7.5rem 0;
