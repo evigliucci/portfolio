@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Intro from "../components/intro";
 import Hero from "../components/hero";
 import Experience from "../components/experience";
+import Button from "../components/Button";
 
 const Home = () => {
   return (
@@ -11,11 +12,13 @@ const Home = () => {
       <Intro title="I am a Full-Stack developer with 10 years of digital experience." />
       <Hero isHome={true} title="Tech Stack" />
       <Experience />
-      <section>
-        <Link to="/portfolio">Link to Portfolio</Link>
-      </section>
+      <Button btnName="View Portfolio" url="/portfolio" align="mid" />
+
       <section className="workSamples">
-        <img alt="test" />
+        <img
+          src={require("../assets/images/work-samples.png")}
+          alt="work samples"
+        />
       </section>
       <section className="sandbox">
         <div className="sandboxWrap">

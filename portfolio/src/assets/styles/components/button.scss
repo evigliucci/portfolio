@@ -1,0 +1,18 @@
+.btnAlign-mid {
+  text-align: center;
+}
+.btn {
+  background: rgb(215, 10, 132);
+  background: linear-gradient(
+    145deg,
+    rgba(215, 10, 132, 1) 25%,
+    rgba(81, 18, 127, 1) 75%
+  );
+  display: inline-block;
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 800;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  border-radius: 5px;
+}

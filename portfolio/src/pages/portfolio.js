@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles/portfolio.css";
 import { Link } from "react-router-dom";
 import Hero from "../components/hero";
 
