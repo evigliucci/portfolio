@@ -1,0 +1,29 @@
+.footer {
+  padding: 7.5rem;
+  background: url(../../images/swirl.png) no-repeat #000;
+  background-size: conatain;
+  background-position: bottom center;
+}
+
+.footer .footerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.footer .footerWrap a {
+  padding: 2.4rem;
+}
+
+.footer h2 {
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */
