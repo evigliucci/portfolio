@@ -1,0 +1,33 @@
+.titleBar {
+  position: relative;
+  top: 7.5rem;
+  background: #d70a84;
+  background: linear-gradient(145deg, #d70a84 25%, #51127f 75%);
+  padding: 1.2rem;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.titleBar .titleBar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 2.4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titleBar h1 {
+  font-size: 10rem;
+  line-height: 10rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=titleBar.css.map */
