@@ -9,7 +9,6 @@ const Portfolio = () => {
     <section className="portfolio">
       <Hero isHome={false} version="tall" title="Portfolio" />
       <WorkSamples version="overlap" />
-
       <section className="tiles">
         <div className="tile-wrap">
           <Tile link="/progressive" logo="progressive" />

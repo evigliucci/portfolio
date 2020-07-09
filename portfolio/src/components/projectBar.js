@@ -2,6 +2,9 @@ import React from "react";
 import "../assets/styles/components/projectBar.css";
 
 const ProjectBar = props => {
+  const tech = props.tech;
+  const techList = tech.map(item => <li key={item.toString()}>{item}</li>);
+
   return (
     <aside className="projectBar">
       <div className="projectBar-group">
@@ -18,7 +21,7 @@ const ProjectBar = props => {
       </div>
       <div className="projectBar-group">
         <h3>Technology Used</h3>
-        <p>{props.tech}</p>
+        <ul>{techList}</ul>
       </div>
     </aside>
   );

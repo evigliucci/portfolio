@@ -8,8 +8,19 @@ const Progressive = () => {
       <ProjectBar
         company="progressive"
         client="Progressive"
-        year="2015-2016"
-        tech={[".net", "HTML", "CSS"]}
+        year="2013-2015"
+        tech={[
+          ".Net Razor",
+          "HTML5",
+          "Semantic HTML",
+          "CSS3",
+          "SCSS",
+          "Responsive Design",
+          "SEO",
+          "Accessibility",
+          "Google Analytics",
+          "Google Tag Manager"
+        ]}
       />
       <Footer />
     </section>

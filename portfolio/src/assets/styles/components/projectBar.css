@@ -19,4 +19,8 @@
   font-weight: 700;
   line-height: 1.5;
 }
+
+.projectBar .projectBar-group li {
+  padding: 0.4rem 0;
+}
 /*# sourceMappingURL=projectBar.css.map */
