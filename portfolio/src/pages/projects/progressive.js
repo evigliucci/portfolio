@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../components/footer";
 import ProjectBar from "../../components/projectBar";
 import TitleBar from "../../components/titleBar";
+import Image from "../../components/image";
 
 const Progressive = () => {
   return (
@@ -26,12 +27,11 @@ const Progressive = () => {
           ]}
         />
         <div className="projectContent">
-          <p>item</p>
-          <p>item</p>
-          <p>item</p>
-          <p>item</p>
-          <p>item</p>
-          <p>item</p>
+          <Image
+            path="progressive/pgr-home.png"
+            alt="Progressive Home Image"
+            version="full"
+          />
         </div>
       </div>
       <Footer />

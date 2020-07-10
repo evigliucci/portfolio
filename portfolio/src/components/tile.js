@@ -4,7 +4,7 @@ import "../assets/styles/components/tile.css";
 const Tile = props => {
   return (
     <div className="tile">
-      <a href={props.link} target="_blank">
+      <a href={props.link}>
         <img
           src={require("../assets/images/tiles/" + props.logo + ".png")}
           alt={"logo " + props.logo}

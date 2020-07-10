@@ -13,18 +13,18 @@ const Portfolio = () => {
         <div className="tile-wrap">
           <Tile link="/progressive" logo="progressive" />
           <Tile link="/leaksmart" logo="leaksmart" />
-          <Tile link="/leaksmart" logo="go2" />
-          <Tile link="/leaksmart" logo="kleen-freak" />
-          <Tile link="/leaksmart" logo="first-national-bank" />
-          <Tile link="/leaksmart" logo="xfinity" />
-          <Tile link="/leaksmart" logo="allergan" />
-          <Tile link="/leaksmart" logo="canada-post" />
-          <Tile link="/leaksmart" logo="city-club" />
-          <Tile link="/leaksmart" logo="village-st-eds" />
-          <Tile link="/leaksmart" logo="blossom-hill" />
-          <Tile link="/leaksmart" logo="global-print-net" />
-          <Tile link="/leaksmart" logo="progressive-old" />
-          <Tile link="/leaksmart" logo="progressive-fao" />
+          <Tile link="/go2" logo="go2" />
+          <Tile link="/kleen-freak" logo="kleen-freak" />
+          <Tile link="/first-national-bank" logo="first-national-bank" />
+          <Tile link="/xfinity" logo="xfinity" />
+          <Tile link="/allergan" logo="allergan" />
+          <Tile link="/canada-post" logo="canada-post" />
+          <Tile link="/city-club" logo="city-club" />
+          <Tile link="/village-st-eds" logo="village-st-eds" />
+          <Tile link="/blossom-hill" logo="blossom-hill" />
+          <Tile link="/global-print-net" logo="global-print-net" />
+          <Tile link="/prog-patterns" logo="progressive-old" />
+          <Tile link="/fao" logo="progressive-fao" />
         </div>
       </section>
       <Footer />
