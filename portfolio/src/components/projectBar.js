@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/styles/components/projectBar.css";
 
 const ProjectBar = props => {
@@ -7,6 +8,9 @@ const ProjectBar = props => {
 
   return (
     <aside className="projectBar">
+      <Link className="portfolioLink" to="/portfolio">
+        <img src={require("../assets/images/leftArrow.png")} alt="Home Icon" />
+      </Link>
       <div className="projectBar-group">
         <h3>Company</h3>
         <p>{props.company}</p>

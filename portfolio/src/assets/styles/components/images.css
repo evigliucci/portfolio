@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=images.css.map */
+.image {
+  margin-bottom: 7.5rem;
+  border: 1px solid #ececec;
+}
+
+.image img {
+  width: 100%;
+  display: block;
+  -webkit-box-shadow: 30px 30px 45px -20px black;
+  box-shadow: 30px 30px 45px -20px black;
+}
+/*# sourceMappingURL=images.css.map */
