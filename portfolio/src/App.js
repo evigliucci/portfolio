@@ -25,6 +25,7 @@ function App() {
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/project" component={Project} />
       <Route exact path="/progressive" component={Progressive} />
+      <Route exact path="/leaksmart" component={Leaksmart} />
       <Route exact path="/go2" component={Go2} />
       <Route exact path="/kleen-freak" component={Kleenfreak} />
       <Route exact path="/first-national-bank" component={FirstNationalBank} />

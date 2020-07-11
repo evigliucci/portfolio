@@ -7,15 +7,16 @@ import Image from "../../components/image";
 const Progressive = () => {
   return (
     <section className="progressive">
-      <TitleBar title="leakSmart" />
+      <TitleBar title="GO2" />
       <div className="project">
         <ProjectBar
           company="GO2"
-          client="Waxman"
-          year="2015-2016"
+          client="GO2"
+          year="2017"
           tech={[
-            "Shopify Eccomerce",
             "Wordpress",
+            "PHP",
+            "MySQL",
             "HTML5",
             "Semantic HTML",
             "CSS3",
