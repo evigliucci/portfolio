@@ -25,19 +25,11 @@ const Progressive = () => {
             "Google Analytics",
             "Google Tag Manager"
           ]}
+          description="As a Front End Developer for Progressive Insurance. My responsibilities included creating and maintaing all aspects of Progressive.com as well as all other Progressive owned websites. I also help create awareness and develop a passion for new emerging trends in front end development such as Semantic HTML, OOCSS principals, responsive web and preprocessing languages such as SASS. I worked with a team of 3 developers on the largest rebrand and build of progressive.com"
         />
+
         <div className="projectContent grid">
           <div className="col-12">
-            <div className="blurb clear">
-              <p>
-                Myself and 2 other front end developers built the largest
-                redesign of Progressive.com. We overhauled 600+ pages, bringing
-                new technologies such as OOCSS, .NET Modules, Atomic Design and
-                SCSS to the site architecture. We integrated Google Tag Manager,
-                GA Tracking, a CMS and an AB/MVT platform.
-              </p>
-            </div>
-
             <Image
               path="progressive/pgr-home.png"
               alt="Progressive Home Image"
@@ -52,13 +44,13 @@ const Progressive = () => {
             </div>
             <Image
               path="progressive/pgr-home-mobile.png"
-              alt="Progressive Home Image"
+              alt="Progressive Home Mobile Image"
             />
           </div>
           <div className="col-4" data-push-left="off-2">
             <Image
               path="progressive/pgr-boat-mobile.png"
-              alt="Progressive Home Image"
+              alt="Progressive Boat Mobile Image"
             />
             <div className="blurb">
               <p>
@@ -70,7 +62,7 @@ const Progressive = () => {
           <div className="col-12">
             <Image
               path="progressive/pgr-boat.png"
-              alt="Progressive Home Image"
+              alt="Progressive Boat Image"
             />
           </div>
         </div>

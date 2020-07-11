@@ -19,5 +19,14 @@
     li {
       padding: 0.4rem 0;
     }
+    &:last-of-type {
+      text-align: left;
+      padding: 2.4rem;
+      background: linear-gradient(145deg, #d70a84 25%, #51127f 75%);
+      p {
+        font-size: 1.7rem;
+        line-height: 1.5;
+      }
+    }
   }
 }

@@ -34,4 +34,17 @@
   line-height: 10rem;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 1440px) {
+  .titleBar {
+    padding: 0.6rem;
+  }
+  .titleBar .titleBar-wrap {
+    padding: 0.6rem;
+  }
+  .titleBar h1 {
+    font-size: 6rem;
+    line-height: 1.3;
+  }
+}
 /*# sourceMappingURL=titleBar.css.map */

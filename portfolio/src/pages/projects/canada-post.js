@@ -7,12 +7,12 @@ import Image from "../../components/image";
 const Progressive = () => {
   return (
     <section className="progressive">
-      <TitleBar title="leakSmart" />
+      <TitleBar title="Canadian Post Office" />
       <div className="project">
         <ProjectBar
-          company="GO2"
-          client="Waxman"
-          year="2015-2016"
+          company="Rosetta"
+          client="Canadian Post Office"
+          year="2013"
           tech={[
             "Shopify Eccomerce",
             "Wordpress",
@@ -23,23 +23,23 @@ const Progressive = () => {
             "Responsive Design"
           ]}
         />
-        <div className="projectContent grid no-pop">
+        <div className="projectContent grid">
           <div className="col-12">
             <Image
-              path="leaksmart/leaksmart-phone.png"
-              alt="Leaksmart Phone Image"
+              path="canada-post/canada-post-home.png"
+              alt="Canada Post Image"
             />
           </div>
           <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
             <Image
-              path="leaksmart/leaksmart-home.png"
-              alt="Progressive Home Image"
+              path="canada-post/canada-post-cards.png"
+              alt="Canada Post Image"
+            />
+          </div>
+          <div className="col-12">
+            <Image
+              path="canada-post/canada-post-editor.png"
+              alt="Canada Post Image"
             />
           </div>
         </div>

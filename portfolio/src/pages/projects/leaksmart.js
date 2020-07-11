@@ -4,24 +4,17 @@ import ProjectBar from "../../components/projectBar";
 import TitleBar from "../../components/titleBar";
 import Image from "../../components/image";
 
-const Progressive = () => {
+const Leaksmart = () => {
   return (
-    <section className="progressive">
+    <section className="leakSmart">
       <TitleBar title="leakSmart" />
       <div className="project">
         <ProjectBar
           company="GO2"
           client="Waxman"
           year="2015-2016"
-          tech={[
-            "Shopify Eccomerce",
-            "Wordpress",
-            "HTML5",
-            "Semantic HTML",
-            "CSS3",
-            "SCSS",
-            "Responsive Design"
-          ]}
+          tech={["Shopify", "Wordpress", "SCSS"]}
+          description="The Leaksmart project was completed while working at GO2 Advertising for Waxman industries. The goal was to create a custom wordpress theme to showcase their new award winning smart home product for detecting and preventing leaks. They also needed a connected ecommerece experience on the Shopify platform to be able to purchase the system and it's components."
         />
         <div className="projectContent grid no-pop">
           <div className="col-12">
@@ -31,12 +24,6 @@ const Progressive = () => {
             />
           </div>
           <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
             <Image
               path="leaksmart/leaksmart-home.png"
               alt="Progressive Home Image"
@@ -49,4 +36,4 @@ const Progressive = () => {
   );
 };
 
-export default Progressive;
+export default Leaksmart;

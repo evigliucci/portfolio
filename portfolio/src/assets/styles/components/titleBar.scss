@@ -29,3 +29,16 @@
     font-weight: 700;
   }
 }
+
+@media only screen and (max-width: 1440px) {
+  .titleBar {
+    padding: 0.6rem;
+    .titleBar-wrap {
+      padding: 0.6rem;
+    }
+    h1 {
+      font-size: 6rem;
+      line-height: 1.3;
+    }
+  }
+}

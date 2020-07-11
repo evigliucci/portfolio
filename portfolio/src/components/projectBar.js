@@ -27,6 +27,10 @@ const ProjectBar = props => {
         <h3>Technology Used</h3>
         <ul>{techList}</ul>
       </div>
+      <div className="projectBar-group">
+        <h3>Overview</h3>
+        <p>{props.description}</p>
+      </div>
     </aside>
   );
 };
