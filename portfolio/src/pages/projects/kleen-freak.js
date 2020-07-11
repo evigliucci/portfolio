@@ -7,7 +7,7 @@ import Image from "../../components/image";
 const Progressive = () => {
   return (
     <section className="progressive">
-      <TitleBar title="leakSmart" />
+      <TitleBar title="KLEEN-FREAK" />
       <div className="project">
         <ProjectBar
           company="GO2"
@@ -26,20 +26,33 @@ const Progressive = () => {
         <div className="projectContent grid no-pop">
           <div className="col-12">
             <Image
-              path="leaksmart/leaksmart-phone.png"
-              alt="Leaksmart Phone Image"
+              path="kleen-freak/kf-laptop.png"
+              alt="Kleen Freak Phone Image"
             />
           </div>
-          <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
+          <div className="col-4">
             <Image
-              path="leaksmart/leaksmart-home.png"
-              alt="Progressive Home Image"
+              path="kleen-freak/kf-about.png"
+              alt="Kleen Freak Phone Image"
+            />
+          </div>
+          <div className="col-8">
+            <Image
+              path="kleen-freak/kf-about-pg.png"
+              alt="Kleen Freak Phone Image"
+            />
+          </div>
+
+          <div className="col-8">
+            <Image
+              path="kleen-freak/kf-blog.png"
+              alt="Kleen Freak Phone Image"
+            />
+          </div>
+          <div className="col-4">
+            <Image
+              path="kleen-freak/kf-contact.png"
+              alt="Kleen Freak Phone Image"
             />
           </div>
         </div>

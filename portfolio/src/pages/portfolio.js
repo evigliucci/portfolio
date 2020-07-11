@@ -17,9 +17,8 @@ const Portfolio = () => {
           <Tile link="/kleen-freak" logo="kleen-freak" />
           <Tile link="/first-national-bank" logo="first-national-bank" />
           <Tile link="/xfinity" logo="xfinity" />
-          <Tile link="/allergan" logo="allergan" />
           <Tile link="/canada-post" logo="canada-post" />
-          <Tile link="/city-club" logo="city-club" />
+
           <Tile link="/village-st-eds" logo="village-st-eds" />
           <Tile link="/blossom-hill" logo="blossom-hill" />
           <Tile link="/global-print-net" logo="global-print-net" />

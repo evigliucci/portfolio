@@ -12,7 +12,7 @@ const Progressive = () => {
         <ProjectBar
           company="GO2"
           client="GO2"
-          year="2017"
+          year="2018"
           tech={[
             "Wordpress",
             "PHP",
@@ -24,24 +24,15 @@ const Progressive = () => {
             "Responsive Design"
           ]}
         />
-        <div className="projectContent grid no-pop">
+        <div className="projectContent grid">
           <div className="col-12">
-            <Image
-              path="leaksmart/leaksmart-phone.png"
-              alt="Leaksmart Phone Image"
-            />
+            <Image path="go2/go2-home.png" alt="Leaksmart Phone Image" />
           </div>
           <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
-            <Image
-              path="leaksmart/leaksmart-home.png"
-              alt="Progressive Home Image"
-            />
+            <Image path="go2/go2-portfolio.png" alt="GO2 Portfolio Image" />
+            <Image path="go2/go2-brands.png" alt="GO2 Portfolio Image" />
+            <Image path="go2/go2-how.png" alt="GO2 Portfolio Image" />
+            <Image path="go2/go2-own.png" alt="GO2 Portfolio Image" />
           </div>
         </div>
       </div>
