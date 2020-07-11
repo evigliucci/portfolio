@@ -10,3 +10,13 @@
     box-shadow: 30px 30px 45px -20px rgba(0, 0, 0, 1);
   }
 }
+
+.no-pop {
+  .image {
+    border: none;
+
+    img {
+      box-shadow: none;
+    }
+  }
+}
