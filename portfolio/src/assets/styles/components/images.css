@@ -6,8 +6,8 @@
 .image img {
   width: 100%;
   display: block;
-  -webkit-box-shadow: 30px 30px 45px -20px black;
-  box-shadow: 30px 30px 45px -20px black;
+  -webkit-box-shadow: 0px 0px 25px 0px #b8b8b8;
+  box-shadow: 0px 0px 25px 0px #b8b8b8;
 }
 
 .no-pop .image {
