@@ -22,7 +22,7 @@ const Portfolio = () => {
           <Tile link="/village-st-eds" logo="village-st-eds" />
           <Tile link="/blossom-hill" logo="blossom-hill" />
           <Tile link="/global-print-net" logo="global-print-net" />
-          <Tile link="/prog-patterns" logo="progressive-old" />
+          <Tile link="/progressive-patterns" logo="progressive-old" />
           <Tile link="/fao" logo="progressive-fao" />
         </div>
       </section>

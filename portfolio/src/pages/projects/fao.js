@@ -4,43 +4,30 @@ import ProjectBar from "../../components/projectBar";
 import TitleBar from "../../components/titleBar";
 import Image from "../../components/image";
 
-const Progressive = () => {
+const Foragentsonly = () => {
   return (
-    <section className="progressive">
-      <TitleBar title="leakSmart" />
+    <section className="Foragentsonly">
+      <TitleBar title="Progressive - Foragentsonly.com" />
       <div className="project">
         <ProjectBar
-          company="GO2"
-          client="Waxman"
-          year="2015-2016"
+          company="Progressive"
+          client="Progressive"
+          year="2018-Current"
           tech={[
-            "Shopify Eccomerce",
-            "Wordpress",
-            "HTML5",
-            "Semantic HTML",
-            "CSS3",
+            ".Net Razor",
+            "MVC",
+            "Partial Componenets",
+            "BEM",
             "SCSS",
-            "Responsive Design"
+            "Semantic HTML",
+            "Accessibility"
           ]}
+          description="I am currently the Lead Front End Developer for Foragentsonly.com at Progressive Insurance. I oversee the Front End Architecture, do code reviews, work with our IT team and two SCRUM teams to run the platform. This is a private Web Application tagerted at Progressive's 30,000 Independant Agents. I love what I do, and work with an amazing team! With a site that recieves over 100,000 unique pagevies a day I am never bored."
         />
-        <div className="projectContent grid no-pop">
+        <div className="projectContent grid">
           <div className="col-12">
-            <Image
-              path="leaksmart/leaksmart-phone.png"
-              alt="Leaksmart Phone Image"
-            />
-          </div>
-          <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
-            <Image
-              path="leaksmart/leaksmart-home.png"
-              alt="Progressive Home Image"
-            />
+            <Image path="fao/fao-login.png" alt="FAO login Image" />
+            <Image path="fao/fao-register.png" alt="FAO register Image" />
           </div>
         </div>
       </div>
@@ -49,4 +36,4 @@ const Progressive = () => {
   );
 };
 
-export default Progressive;
+export default Foragentsonly;

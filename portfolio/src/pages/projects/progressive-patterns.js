@@ -4,42 +4,27 @@ import ProjectBar from "../../components/projectBar";
 import TitleBar from "../../components/titleBar";
 import Image from "../../components/image";
 
-const Progressive = () => {
+const ProgPatterns = () => {
   return (
-    <section className="progressive">
-      <TitleBar title="leakSmart" />
+    <section className="ProgPatterns">
+      <TitleBar title="Progressive Patterns" />
       <div className="project">
         <ProjectBar
-          company="GO2"
-          client="Waxman"
-          year="2015-2016"
-          tech={[
-            "Shopify Eccomerce",
-            "Wordpress",
-            "HTML5",
-            "Semantic HTML",
-            "CSS3",
-            "SCSS",
-            "Responsive Design"
-          ]}
+          company="Progressive"
+          client="Progressive"
+          year="2014"
+          tech={["Wordpress", "HTML5", "SCSS", "Responsive Design"]}
+          description="While working at Progressive Insurance I was tasked with creating a digital pattern library. The requirements were that the site needed to be intigrated into a CMS, It needed to be resposive to represent our patterns across all screen sizes, the patterns needed to be a live representation and need to show proper code for each pattern."
         />
-        <div className="projectContent grid no-pop">
+        <div className="projectContent grid">
           <div className="col-12">
             <Image
-              path="leaksmart/leaksmart-phone.png"
-              alt="Leaksmart Phone Image"
+              path="prog-patterns/prog-patterns.png"
+              alt="prog-patterns Image"
             />
-          </div>
-          <div className="col-12">
-            <div className="blurb">
-              <p>
-                Progressive.com’s Homepage was built as a mobile first adaptive
-                design. It was unique for performance and SEO reasons.
-              </p>
-            </div>
             <Image
-              path="leaksmart/leaksmart-home.png"
-              alt="Progressive Home Image"
+              path="prog-patterns/prog-patterns-nav.png"
+              alt="prog-patterns Nav Image"
             />
           </div>
         </div>
@@ -49,4 +34,4 @@ const Progressive = () => {
   );
 };
 
-export default Progressive;
+export default ProgPatterns;
