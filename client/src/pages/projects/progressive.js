@@ -31,7 +31,7 @@ const Progressive = () => {
         <div className="projectContent grid">
           <div className="col-12">
             <Image
-              path="images/projects/progressive/pgr-home.png"
+              path="progressive/pgr-home.png"
               alt="Progressive Home Image"
             />
           </div>
@@ -43,13 +43,13 @@ const Progressive = () => {
               </p>
             </div>
             <Image
-              path="images/projects/progressive/pgr-home-mobile.png"
+              path="progressive/pgr-home-mobile.png"
               alt="Progressive Home Mobile Image"
             />
           </div>
           <div className="col-4" data-push-left="off-2">
             <Image
-              path="images/projects/progressive/pgr-boat-mobile.png"
+              path="progressive/pgr-boat-mobile.png"
               alt="Progressive Boat Mobile Image"
             />
             <div className="blurb">
@@ -61,7 +61,7 @@ const Progressive = () => {
           </div>
           <div className="col-12">
             <Image
-              path="images/projects/progressive/pgr-boat.png"
+              path="progressive/pgr-boat.png"
               alt="Progressive Boat Image"
             />
           </div>
