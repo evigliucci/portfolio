@@ -30,7 +30,9 @@ const Home = () => {
             projects get completed, some are started just to learn new skills or
             try out new tech. Here is a collection of my sandbox projects.
           </p>
-          <Button btnName="View Sandbox" url="/sandbox" align="mid" />
+          <a href="https://github.com/evigliucci" class="github-link" target="_blank" rel="noopener noreferrer">
+            View GitHub
+          </a>
         </div>
       </section>
 
